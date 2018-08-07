@@ -9,10 +9,32 @@
 </template>
 
 <style>
+@font-face {
+  font-family: Vazir;
+  src: url('./assets/fonts/Vazir.eot');
+  src: url('./assets/fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+       url('./assets/fonts/Vazir.woff') format('woff'),
+       url('./assets/fonts/Vazir.ttf') format('truetype');
+  font-weight: normal;
+}      
+@font-face {
+  font-family: Vazir;
+  src: url('./assets/fonts/Vazir-Bold.eot');
+  src: url('./assets/fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       url('./assets/fonts/Vazir-Bold.woff') format('woff'),
+       url('./assets/fonts/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('./assets/fonts/Vazir-Light.eot');
+  src: url('./assets/fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+       url('./assets/fonts/Vazir-Light.woff') format('woff'),
+       url('./assets/fonts/Vazir-Light.ttf') format('truetype');
+  font-weight: 300;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Vazir;
   text-align: center;
   color: #2c3e50;
 }
