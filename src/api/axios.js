@@ -3,7 +3,7 @@ import store from '../store'
 import router from '../router'
 
 // Create an instance of axios for customization
-export const axios = cngAxios.create({
+export const cngAxios = axios.create({
   timeout: 2000
 })
 
