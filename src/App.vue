@@ -16,7 +16,7 @@
        url('./assets/fonts/Vazir.woff') format('woff'),
        url('./assets/fonts/Vazir.ttf') format('truetype');
   font-weight: normal;
-}      
+}
 @font-face {
   font-family: Vazir;
   src: url('./assets/fonts/Vazir-Bold.eot');
