@@ -1,6 +1,6 @@
-# vue-starter [VUE, VUEX, AXIOS]
+# vue-starter [VUE, VUEX, ROUTER, AXIOS]
 
-## Project setup
+## Project setup (INIT)
 ```
 yarn install
 ```
